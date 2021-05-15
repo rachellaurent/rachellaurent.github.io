@@ -14,10 +14,49 @@
         background-size: cover;
         background-attachment: fixed;
     }
+    .column{
+        float: left;
+  width: 50%;
+    }
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left{
+    flex:50%;
+ 
+
+}
+.right{
+    flex:50%;
+}
+.imgsize{
+    width:90%;
+}
+.newbackground{
+                background-color: #e2f0c3;
+            }
 </style>
-<body class="mainbackground">
-    <div class="column">
-        
-    </div>
+<body class="newbackground">
+    <div class="row">
+        <div class="left">
+            <img src="img/IMG_0192.jpeg"class="imgsize">
+            <br>
+            <hr>
+            <img src="img/DSC07431.jpeg" class="imgsize">
+
+        </div>
+        <div class="right">
+            <img src="img/moodboard.png" class="imgsize">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+
+        </div>
+      </div>
 </body>
 </html>
